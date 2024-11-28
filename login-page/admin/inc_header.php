@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if($_SESSION['admin_username'] == ''){
-    header("location:diva.php");
+    header("location:login.php");
     exit();
 }
 
