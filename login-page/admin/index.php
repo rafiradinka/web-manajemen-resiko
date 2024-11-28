@@ -4,5 +4,3 @@
 <p>
     Selamat datang <b><?php echo $_SESSION['admin_username'] ?></b> di halaman administrasi.
 </p>
-
-<?php include("inc_footer.php") ?>
